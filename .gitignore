@@ -48,3 +48,14 @@ Thumbs.db
 *.mov
 *.wmv
 
+*.out
+*.jou
+*.log
+
+work/
+.vscode/
+.hdl_checker/
+.hdl_checker.config
+vhdltool-config.yaml
+
+xvhdl.*
