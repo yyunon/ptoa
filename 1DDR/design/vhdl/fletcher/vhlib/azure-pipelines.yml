@@ -1,0 +1,12 @@
+resources:
+  repositories:
+  - repository: abs-tudelft
+    type: github
+    endpoint: github
+    name: abs-tudelft/azure-pipelines-templates
+
+jobs:
+
+- template: jobs/vhdeps.yml@abs-tudelft
+  parameters:
+    sources: ['sim', 'stream', 'util']

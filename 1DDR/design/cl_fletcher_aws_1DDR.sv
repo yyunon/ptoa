@@ -276,21 +276,19 @@ axi_register_slice_light BAR1_SLICE (
    .m_axi_rresp  (cl_axi_mstr_bus.rresp  ),
    .m_axi_rlast  (cl_axi_mstr_bus.rlast  ),
 
+    // Write address channel
    .m_axi_awvalid(cl_axi_mstr_bus.awvalid),
    .m_axi_awready(cl_axi_mstr_bus.awready),
-   .m_axi_awaddr (cl_axi_mstr_bus.awaddr ),
-   .m_axi_awlen  (cl_axi_mstr_bus.awlen  ),
-   .m_axi_awsize (cl_axi_mstr_bus.awsize ),
+   .m_axi_awaddr (cl_axi_mstr_bus.awaddr),
+   .m_axi_awlen  (cl_axi_mstr_bus.awlen),
+   .m_axi_awsize (cl_axi_mstr_bus.awsize),
 
+    // Write data channel
    .m_axi_wvalid (cl_axi_mstr_bus.wvalid),
    .m_axi_wready (cl_axi_mstr_bus.wready),
-   .m_axi_wdata  (cl_axi_mstr_bus.wdata ),
-   .m_axi_wlast  (cl_axi_mstr_bus.wlast ),
-   .m_axi_wstrb  (cl_axi_mstr_bus.wstrb ),
-
-   .m_axi_bvalid (cl_axi_mstr_bus.bvalid),
-   .m_axi_bready (cl_axi_mstr_bus.bready),
-   .m_axi_bresp  (cl_axi_mstr_bus.bresp ),
+   .m_axi_wdata  (cl_axi_mstr_bus.wdata),
+   .m_axi_wlast  (cl_axi_mstr_bus.wlast),
+   .m_axi_wstrb  (cl_axi_mstr_bus.wstrb),
 
    // Slave interface
    .s_axi_awvalid(cl_axi_slv_bus.awvalid),
@@ -311,6 +309,8 @@ axi_register_slice_light BAR1_SLICE (
    .s_axi_rdata  (cl_axi_slv_bus.rdata  ),
    .s_axi_rresp  (cl_axi_slv_bus.rresp  )
 );
+
+assign cl_axi_mstr_bus.bready = 1'b1;
 
 ///////////////////////////////////////////////////////////////////////
 ///////////////// Secondary AXI Master module /////////////////////////
