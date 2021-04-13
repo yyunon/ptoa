@@ -69,13 +69,8 @@ entity ParquetReader is
     ---------------------------------------------------------------------------
     bus_wreq_valid                             : out std_logic;
     bus_wreq_len                               : out std_logic_vector(BUS_LEN_WIDTH-1 downto 0);
-    bus_wreq_last                              : out std_logic;
     bus_wreq_addr                              : out std_logic_vector(BUS_ADDR_WIDTH-1 downto 0);
     bus_wreq_ready                             : in  std_logic;
-    ---------------------------------------------------------------------------
-    bus_wrep_valid                             : in std_logic;
-    bus_wrep_ready                             : out  std_logic;
-    bus_wrep_ok                                : in std_logic;
     ---------------------------------------------------------------------------
     bus_wdat_valid                             : out std_logic;
     bus_wdat_ready                             : in  std_logic;
@@ -321,17 +316,13 @@ begin
       bus_wreq_ready              => bus_wreq_ready,
       bus_wreq_addr               => bus_wreq_addr,
       bus_wreq_len                => bus_wreq_len,
-      bus_wreq_last               => bus_wreq_last,
       bus_wdat_valid              => bus_wdat_valid,
       bus_wdat_ready              => bus_wdat_ready,
       bus_wdat_data               => bus_wdat_data,
       bus_wdat_strobe             => bus_wdat_strobe,
       bus_wdat_last               => bus_wdat_last,
-      bus_wrep_valid              => bus_wrep_valid,
-      bus_wrep_ready              => bus_wrep_ready,
-      bus_wrep_ok                 => bus_wrep_ok,
-      unl_valid                   => unl_valid,
-      unl_ready                   => unl_ready,
-      unl_tag                     => unl_tag
+      unl_valid                => unl_valid,
+      unl_ready                => unl_ready,
+      unl_tag                  => unl_tag
     );
 end architecture;

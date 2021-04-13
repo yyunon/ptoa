@@ -1,42 +1,58 @@
-// Copyright 2018 Delft University of Technology
+// Licensed to the Apache Software Foundation (ASF) under one
+// or more contributor license agreements. See the NOTICE file
+// distributed with this work for additional information
+// regarding copyright ownership. The ASF licenses this file
+// to you under the Apache License, Version 2.0 (the
+// "License"); you may not use this file except in compliance
+// with the License. You may obtain a copy of the License at
 //
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
+// http://www.apache.org/licenses/LICENSE-2.0
 //
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
+// Unless required by applicable law or agreed to in writing,
+// software distributed under the License is distributed on an
+// "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+// KIND, either express or implied. See the License for the
+// specific language governing permissions and limitations
+// under the License.
 
+/*
+ * Author: Lars van Leeuwen
+ * Code for running a Parquet to Arrow converter for 64 bit primitives on FPGA.
+ *
+ * Inputs:
+ *  parquet_hw_input_file_path: file_path to hardware compatible Parquet file
+ *  reference_parquet_file_path: file_path to Parquet file compatible with the
+ * standard Arrow library Parquet reading functions. This file should contain
+ * the same values as the first file and is used for verifying the hardware
+ * output. num_val: How many values to read.
+ */
+
+#include <chrono>
 #include <fstream>
+#include <iomanip>
 #include <iostream>
 #include <memory>
+#include <random>
+#include <stdlib.h>
+#include <unistd.h>
+#include <vector>
+
 // Apache Arrow
 #include <arrow/api.h>
 #include <arrow/io/api.h>
-#include <fletcher/api.h>
 #include <parquet/arrow/reader.h>
 #include <parquet/arrow/writer.h>
 
-#define REG_BASE 10
-#define PRIM_WIDTH 64
-#include <arrow/api.h>
-#include <fletcher/api.h>
+// Fletcher
+#include "fletcher/api.h"
 
 #ifdef SV_TEST
 #include "fletcher_aws_sim.h"
 #endif
 
-#define MAX_STRBUF_SIZE 256
-#define NAME_SUFFIX_LENGTH 7 // 000.rb (3 numbers, 3 chars, and a terminator)
+#define REG_BASE 10
 
-inline double fixed_to_float(uint64_t input) {
-  return ((double)input / (double)(1 << 18));
-}
+#define PRIM_WIDTH 64
 
 std::shared_ptr<arrow::RecordBatch> prepareRecordBatch(uint32_t num_val) {
   std::shared_ptr<arrow::Buffer> values;
@@ -92,6 +108,7 @@ void checkMMIO(std::shared_ptr<fletcher::Platform> platform, uint32_t num_val) {
     platform->ReadMMIO(i, &value32);
   }
 }
+
 // Use standard Arrow library functions to read Arrow array from Parquet file
 // Only works for Parquet version 1 style files.
 std::shared_ptr<arrow::ChunkedArray> readArray(std::string hw_input_file_path) {
@@ -149,61 +166,37 @@ extern "C" void test_main(uint32_t *exit_code) {
 
 int tpch_main(int argc, char **argv) {
 
-#else  //! SV_TEST
-
-// Entry point for normal operation (not simulating)
+#else //! SV_TEST
 int main(int argc, char **argv) {
-#endif // SV_TEST
-
-  printf("\n\tPTOA AWS Runtime\n\n");
-
-  // Check number of arguments.
-  // TODO: CLI
-  const char *hw_input_file_path =
-      "/home/yyunon/Datasets/extendedprice.parquet";
-  const char *reference_parquet_file_path =
-      "/home/yyunon/Datasets/extendedprice.parquet";
-  uint32_t num_val = 1;
-
-  uint64_t file_size;
-  uint8_t *file_data;
-
-  std::vector<std::shared_ptr<arrow::RecordBatch>> batches;
-  std::shared_ptr<arrow::RecordBatch> number_batch;
-
-  // Open parquet file
-  std::ifstream parquet_file;
-  parquet_file.open(hw_input_file_path, std::ifstream::binary);
-
-  if (!parquet_file.is_open()) {
-    std::cerr << "Error opening Parquet file" << std::endl;
-    return 1;
-  }
-  // Get filesize
-  parquet_file.seekg(0, parquet_file.end);
-  file_size = parquet_file.tellg();
-  parquet_file.seekg(0, parquet_file.beg);
-
-  // Read file data
-  file_data = (uint8_t *)std::malloc(file_size);
-  parquet_file.read((char *)file_data, file_size);
-  long unsigned int checksum = 0;
-  for (uint64_t i = 0; i < file_size; ++i) {
-    checksum += file_data[i];
-  }
-  printf("Parquet file checksum 0x%lu\n", checksum);
-
-  auto arrow_rb_fpga = prepareRecordBatch(num_val);
-  auto result_array =
-      std::dynamic_pointer_cast<arrow::Int64Array>(arrow_rb_fpga->column(0));
-  auto result_buffer_raw_data = result_array->values()->mutable_data();
-  auto result_buffer_size = result_array->values()->size();
-
+#endif
   fletcher::Status status;
   std::shared_ptr<fletcher::Platform> platform;
   std::shared_ptr<fletcher::Context> context;
 
-  // Create a Fletcher platform object, attempting to autodetect the platform.
+  fletcher::Timer t;
+
+  const char *hw_input_file_path =
+      "/home/yyunon/Datasets/extendedprice100.parquet";
+  const char *reference_parquet_file_path =
+      "/home/yyunon/Datasets/extendedprice100ref.parquet";
+  uint32_t num_val = 100;
+  uint64_t file_size;
+  uint8_t *file_data;
+
+// if (argc > 3) {
+//  hw_input_file_path = argv[1];
+//  reference_parquet_file_path = argv[2];
+//  num_val = (uint32_t)std::strtoul(argv[3], nullptr, 10);
+
+//} else {
+//  std::cerr << "Usage: prim64 <parquet_hw_input_file_path> "
+//               "<reference_parquet_file_path> <num_values>"
+//            << std::endl;
+//  return 1;
+//}
+
+// Create a Fletcher platform object, attempting to autodetect the platform.
+// Create a Fletcher platform object, attempting to autodetect the platform.
 #ifdef SV_TEST
   status = fletcher::Platform::Make("aws_sim", &platform);
 #else
@@ -216,83 +209,135 @@ int main(int argc, char **argv) {
     return -1;
   }
 
+  /*************************************************************
+   * Parquet file reading
+   *************************************************************/
+
+  // Open parquet file
+  std::ifstream parquet_file;
+  parquet_file.open(hw_input_file_path, std::ifstream::binary);
+
+  if (!parquet_file.is_open()) {
+    std::cerr << "Error opening Parquet file" << std::endl;
+    return 1;
+  }
+
+  // Get filesize
+  parquet_file.seekg(0, parquet_file.end);
+  file_size = parquet_file.tellg();
+  parquet_file.seekg(4, parquet_file.beg); // Skip past Parquet magic number
+
+  // Read file data
+  // file_data = (uint8_t*)std::malloc(file_size);
+  posix_memalign((void **)&file_data, 4096, file_size - 4);
+  parquet_file.read((char *)file_data, file_size - 4);
+  unsigned int checksum = 0;
+  for (uint64_t i = 0; i < file_size; i++) {
+    checksum += file_data[i];
+  }
+  printf("Parquet file checksum 0x%lu\n", (long unsigned int)checksum);
+
+  /*************************************************************
+   * FPGA RecordBatch preparation
+   *************************************************************/
+
+  t.start();
+  auto arrow_rb_fpga = prepareRecordBatch(num_val);
+  t.stop();
+  std::cout << "Prepare FPGA RecordBatch         : " << t.seconds()
+            << std::endl;
+  auto result_array =
+      std::dynamic_pointer_cast<arrow::Int64Array>(arrow_rb_fpga->column(0));
+  auto result_buffer_raw_data = result_array->values()->mutable_data();
+  auto result_buffer_size = result_array->values()->size();
+  std::cout << "Result buf. size" << result_buffer_size << "\n";
+  /*************************************************************
+   * FPGA Initilialization
+   *************************************************************/
+
   // Initialize the platform.
 #ifdef SV_TEST
   InitOptions options = {1}; // do not initialize DDR for the 1DDR version
   platform->init_data = &options;
 #endif
-  // Initialize the platform.
-  status = platform->Init();
+  platform->Init();
 
-  if (!status.ok()) {
-    std::cerr << "Could not initialize Fletcher platform." << std::endl;
-    return -1;
-  }
+  // Create context and kernel
+  fletcher::Context::Make(&context, platform);
+  fletcher::Kernel kernel(context);
 
-  // Create a context for our application on the platform.
-  status = fletcher::Context::Make(&context, platform);
+  t.start();
+  kernel.Reset();
 
-  if (!status.ok()) {
-    std::cerr << "Could not create Fletcher context." << std::endl;
-    return -1;
-  }
-
-  // Queue the recordbatch to our context.
-  status = context->QueueRecordBatch(arrow_rb_fpga);
-
-  // "Enable" the context, potentially copying the recordbatch to the device.
-  // This depends on your platform. AWS EC2 F1 requires a copy, but OpenPOWER
-  // SNAP doesn't.
+  // Setup destination recordbatch on device
+  context->QueueRecordBatch(arrow_rb_fpga);
   context->Enable();
 
-  if (!status.ok()) {
-    std::cerr << "Could not enable the context." << std::endl;
-    return -1;
-  }
-  // Malloc device
-
+  // Malloc parquet file on device
   da_t device_parquet_address;
-  platform->DeviceMalloc(&device_parquet_address, file_size);
+  if (strcmp("oc-accel", platform->name().c_str()) == 0 ||
+      strcmp("snap", platform->name().c_str()) == 0) {
+    printf("Platform [%s]: Skipping device buffer allocation and host to "
+           "device copy.\n",
+           platform->name().c_str());
+    // Set all the MMIO registers to their correct value
+    setPtoaArguments(platform, num_val, file_size, (da_t)(file_data));
+  } else {
+    platform->DeviceMalloc(&device_parquet_address, file_size);
 
-  setPtoaArguments(platform, num_val, file_size, device_parquet_address);
+    // Set all the MMIO registers to their correct value
+    setPtoaArguments(platform, num_val, file_size, device_parquet_address);
+  }
+  t.stop();
+  std::cout << "FPGA Initialize                  : " << t.seconds()
+            << std::endl;
+  checkMMIO(platform, num_val);
 
   // Make sure all buffer memory is allocated
   memset(result_buffer_raw_data, 0, result_buffer_size);
+
+  /*************************************************************
+   * FPGA host to device copy
+   *************************************************************/
+
+  t.start();
   platform->CopyHostToDevice(file_data, device_parquet_address, file_size);
-  // Create a kernel based on the context.
+  t.stop();
+  std::cout << "FPGA host to device copy         : " << t.seconds()
+            << std::endl;
 
-  // Create a kernel based on the context.
-  fletcher::Kernel kernel(context);
+  /*************************************************************
+   * FPGA processing
+   *************************************************************/
 
-  // Start the kernel.
-  status = kernel.Reset();
+  t.start();
+  kernel.Start();
+  kernel.WaitForFinish(10);
+  t.stop();
+  std::cout << "FPGA processing time             : " << t.seconds()
+            << std::endl;
 
-  if (!status.ok()) {
-    std::cerr << "Could not start the kernel." << std::endl;
-    return -1;
-  }
+  /*************************************************************
+   * FPGA device to host copy
+   *************************************************************/
 
-  // Start the kernel.
-  status = kernel.Start();
-
-  if (!status.ok()) {
-    std::cerr << "Could not start the kernel." << std::endl;
-    return -1;
-  }
-
-  // Wait for the kernel to finish.
-  status = kernel.WaitForFinish();
-
-  if (!status.ok()) {
-    std::cerr << "Something went wrong waiting for the kernel to finish."
-              << std::endl;
-    return -1;
-  }
-
+  t.start();
   platform->CopyDeviceToHost(context->device_buffer(0).device_address,
-                             result_buffer_raw_data, sizeof(int64_t) * num_val);
+                             result_buffer_raw_data,
+                             sizeof(int64_t) * (num_val));
+  t.stop();
 
-  // size_t total_arrow_size = sizeof(int64_t) * num_val;
+  size_t total_arrow_size = sizeof(int64_t) * num_val;
+
+  std::cout << "FPGA device to host copy         : " << t.seconds()
+            << std::endl;
+  std::cout << "Arrow buffers total size         : " << total_arrow_size
+            << std::endl;
+
+  /*************************************************************
+   * Check results
+   *************************************************************/
+
   auto correct_array = std::dynamic_pointer_cast<arrow::Int64Array>(
       readArray(std::string(reference_parquet_file_path))->chunk(0));
   if (result_array->Equals(correct_array)) {

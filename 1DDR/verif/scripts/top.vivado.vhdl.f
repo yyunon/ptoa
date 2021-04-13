@@ -6,6 +6,8 @@ ${CL_ROOT}/design/vhdl/fletcher/vhlib/util/UtilConv_pkg.vhd
 ${CL_ROOT}/design/vhdl/fletcher/vhlib/stream/Stream_pkg.vhd
 ${CL_ROOT}/design/vhdl/fletcher/interconnect/Interconnect_pkg.vhd
 ${CL_ROOT}/design/vhdl/fletcher/axi/AxiReadConverter.vhd
+${CL_ROOT}/design/vhdl/fletcher/axi/AxiWriteConverter.vhd
+${CL_ROOT}/design/vhdl/fletcher/axi/AxiMmio.vhd
 ${CL_ROOT}/design/vhdl/fletcher/vhlib/stream/StreamArb.vhd
 ${CL_ROOT}/design/vhdl/fletcher/interconnect/BusReadArbiterVec.vhd
 ${CL_ROOT}/design/vhdl/fletcher/arrays/ArrayConfigParse_pkg.vhd
@@ -35,12 +37,7 @@ ${CL_ROOT}/design/vhdl/fletcher/arrays/ArrayReaderLevel.vhd
 ${CL_ROOT}/design/vhdl/fletcher/arrays/ArrayReaderArb.vhd
 ${CL_ROOT}/design/vhdl/fletcher/arrays/ArrayReader.vhd
 ${CL_ROOT}/design/vhdl/fletcher/arrays/ArrayCmdCtrlMerger.vhd
-${CL_ROOT}/design/vhdl/fletcher/parallel_patterns/StreamSliceArray.vhd
 ${CL_ROOT}/design/vhdl/fletcher/vhlib/stream/StreamElementCounter.vhd
-${CL_ROOT}/design/vhdl/fletcher/parallel_patterns/StreamAccumulator.vhd
-${CL_ROOT}/design/vhdl/fletcher/parallel_patterns/SequenceStream.vhd
-${CL_ROOT}/design/vhdl/fletcher/parallel_patterns/ParallelPatterns_pkg.vhd
-${CL_ROOT}/design/vhdl/fletcher/parallel_patterns/ReduceStream.vhd
 ${CL_ROOT}/design/vhdl/fletcher/vhlib/stream/StreamSync.vhd
 ${CL_ROOT}/design/vhdl/fletcher/vhlib/util/UtilRam1R1W.vhd
 ${CL_ROOT}/design/vhdl/fletcher/vhlib/stream/StreamFIFOCounter.vhd

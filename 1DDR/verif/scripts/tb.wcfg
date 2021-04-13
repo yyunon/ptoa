@@ -35,128 +35,128 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="33300001fs"></ZoomEndTime>
-      <Cursor1Time time="5084000fs"></Cursor1Time>
+      <ZoomStartTime time="6687000fs"></ZoomStartTime>
+      <ZoomEndTime time="9597001fs"></ZoomEndTime>
+      <Cursor1Time time="7172000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="284"></NameColumnWidth>
-      <ValueColumnWidth column_width="103"></ValueColumnWidth>
+      <NameColumnWidth column_width="291"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="228" />
+   <WVObjectSize size="647" />
    <wvobject fp_name="divider233" type="divider">
       <obj_property name="label">sh_cl_dma</obj_property>
       <obj_property name="DisplayName">label</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/awid">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/awid">
       <obj_property name="ElementShortName">awid[15:0]</obj_property>
       <obj_property name="ObjectShortName">awid[15:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/awaddr">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/awaddr">
       <obj_property name="ElementShortName">awaddr[63:0]</obj_property>
       <obj_property name="ObjectShortName">awaddr[63:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/awlen">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/awlen">
       <obj_property name="ElementShortName">awlen[7:0]</obj_property>
       <obj_property name="ObjectShortName">awlen[7:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/awsize">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/awsize">
       <obj_property name="ElementShortName">awsize[2:0]</obj_property>
       <obj_property name="ObjectShortName">awsize[2:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/awvalid">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/awvalid">
       <obj_property name="ElementShortName">awvalid</obj_property>
       <obj_property name="ObjectShortName">awvalid</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/awready">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/awready">
       <obj_property name="ElementShortName">awready</obj_property>
       <obj_property name="ObjectShortName">awready</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/wid">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/wid">
       <obj_property name="ElementShortName">wid[15:0]</obj_property>
       <obj_property name="ObjectShortName">wid[15:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/wdata">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/wdata">
       <obj_property name="ElementShortName">wdata[511:0]</obj_property>
       <obj_property name="ObjectShortName">wdata[511:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/wstrb">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/wstrb">
       <obj_property name="ElementShortName">wstrb[63:0]</obj_property>
       <obj_property name="ObjectShortName">wstrb[63:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/wlast">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/wlast">
       <obj_property name="ElementShortName">wlast</obj_property>
       <obj_property name="ObjectShortName">wlast</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/wvalid">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/wvalid">
       <obj_property name="ElementShortName">wvalid</obj_property>
       <obj_property name="ObjectShortName">wvalid</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/wready">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/wready">
       <obj_property name="ElementShortName">wready</obj_property>
       <obj_property name="ObjectShortName">wready</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/bid">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/bid">
       <obj_property name="ElementShortName">bid[15:0]</obj_property>
       <obj_property name="ObjectShortName">bid[15:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/bresp">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/bresp">
       <obj_property name="ElementShortName">bresp[1:0]</obj_property>
       <obj_property name="ObjectShortName">bresp[1:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/bvalid">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/bvalid">
       <obj_property name="ElementShortName">bvalid</obj_property>
       <obj_property name="ObjectShortName">bvalid</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/bready">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/bready">
       <obj_property name="ElementShortName">bready</obj_property>
       <obj_property name="ObjectShortName">bready</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/arid">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/arid">
       <obj_property name="ElementShortName">arid[15:0]</obj_property>
       <obj_property name="ObjectShortName">arid[15:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/araddr">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/araddr">
       <obj_property name="ElementShortName">araddr[63:0]</obj_property>
       <obj_property name="ObjectShortName">araddr[63:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/arlen">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/arlen">
       <obj_property name="ElementShortName">arlen[7:0]</obj_property>
       <obj_property name="ObjectShortName">arlen[7:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/arsize">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/arsize">
       <obj_property name="ElementShortName">arsize[2:0]</obj_property>
       <obj_property name="ObjectShortName">arsize[2:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/arvalid">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/arvalid">
       <obj_property name="ElementShortName">arvalid</obj_property>
       <obj_property name="ObjectShortName">arvalid</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/arready">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/arready">
       <obj_property name="ElementShortName">arready</obj_property>
       <obj_property name="ObjectShortName">arready</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/rid">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/rid">
       <obj_property name="ElementShortName">rid[15:0]</obj_property>
       <obj_property name="ObjectShortName">rid[15:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/rdata">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/rdata">
       <obj_property name="ElementShortName">rdata[511:0]</obj_property>
       <obj_property name="ObjectShortName">rdata[511:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/rresp">
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/rresp">
       <obj_property name="ElementShortName">rresp[1:0]</obj_property>
       <obj_property name="ObjectShortName">rresp[1:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/rlast">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/rlast">
       <obj_property name="ElementShortName">rlast</obj_property>
       <obj_property name="ObjectShortName">rlast</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/rvalid">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/rvalid">
       <obj_property name="ElementShortName">rvalid</obj_property>
       <obj_property name="ObjectShortName">rvalid</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/sh_cl_dma_pcis_bus/rready">
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/sh_cl_dma_pcis_bus/rready">
       <obj_property name="ElementShortName">rready</obj_property>
       <obj_property name="ObjectShortName">rready</obj_property>
    </wvobject>
@@ -492,18 +492,6 @@
       <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
       <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/m_axi_bvalid">
-      <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
-      <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/m_axi_bready">
-      <obj_property name="ElementShortName">m_axi_bready</obj_property>
-      <obj_property name="ObjectShortName">m_axi_bready</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/m_axi_bresp">
-      <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
-      <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
-   </wvobject>
    <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/bcd_reset_n">
       <obj_property name="ElementShortName">bcd_reset_n</obj_property>
       <obj_property name="ObjectShortName">bcd_reset_n</obj_property>
@@ -556,10 +544,6 @@
       <obj_property name="ElementShortName">bus_wreq_len[7:0]</obj_property>
       <obj_property name="ObjectShortName">bus_wreq_len[7:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/bus_wreq_last">
-      <obj_property name="ElementShortName">bus_wreq_last</obj_property>
-      <obj_property name="ObjectShortName">bus_wreq_last</obj_property>
-   </wvobject>
    <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/bus_wdat_valid">
       <obj_property name="ElementShortName">bus_wdat_valid</obj_property>
       <obj_property name="ObjectShortName">bus_wdat_valid</obj_property>
@@ -579,18 +563,6 @@
    <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/bus_wdat_last">
       <obj_property name="ElementShortName">bus_wdat_last</obj_property>
       <obj_property name="ObjectShortName">bus_wdat_last</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/slv_bus_wrep_valid">
-      <obj_property name="ElementShortName">slv_bus_wrep_valid</obj_property>
-      <obj_property name="ObjectShortName">slv_bus_wrep_valid</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/slv_bus_wrep_ready">
-      <obj_property name="ElementShortName">slv_bus_wrep_ready</obj_property>
-      <obj_property name="ObjectShortName">slv_bus_wrep_ready</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/slv_bus_wrep_ok">
-      <obj_property name="ElementShortName">slv_bus_wrep_ok</obj_property>
-      <obj_property name="ObjectShortName">slv_bus_wrep_ok</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/regs_in">
       <obj_property name="ElementShortName">regs_in[479:0]</obj_property>
@@ -712,10 +684,6 @@
       <obj_property name="ElementShortName">mst_wreq_len[7:0]</obj_property>
       <obj_property name="ObjectShortName">mst_wreq_len[7:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/mst_wreq_last">
-      <obj_property name="ElementShortName">mst_wreq_last</obj_property>
-      <obj_property name="ObjectShortName">mst_wreq_last</obj_property>
-   </wvobject>
    <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/mst_wreq_addr">
       <obj_property name="ElementShortName">mst_wreq_addr[63:0]</obj_property>
       <obj_property name="ObjectShortName">mst_wreq_addr[63:0]</obj_property>
@@ -808,10 +776,6 @@
       <obj_property name="ElementShortName">bsv_wreq_len[7:0]</obj_property>
       <obj_property name="ObjectShortName">bsv_wreq_len[7:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/bsv_wreq_last">
-      <obj_property name="ElementShortName">bsv_wreq_last</obj_property>
-      <obj_property name="ObjectShortName">bsv_wreq_last</obj_property>
-   </wvobject>
    <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/bsv_wreq_valid">
       <obj_property name="ElementShortName">bsv_wreq_valid[0:0]</obj_property>
       <obj_property name="ObjectShortName">bsv_wreq_valid[0:0]</obj_property>
@@ -823,18 +787,6 @@
    <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/bsv_wreq_addr">
       <obj_property name="ElementShortName">bsv_wreq_addr[63:0]</obj_property>
       <obj_property name="ObjectShortName">bsv_wreq_addr[63:0]</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/bsv_wrep_ready">
-      <obj_property name="ElementShortName">bsv_wrep_ready</obj_property>
-      <obj_property name="ObjectShortName">bsv_wrep_ready</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/bsv_wrep_valid">
-      <obj_property name="ElementShortName">bsv_wrep_valid</obj_property>
-      <obj_property name="ObjectShortName">bsv_wrep_valid</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/bsv_wrep_ok">
-      <obj_property name="ElementShortName">bsv_wrep_ok</obj_property>
-      <obj_property name="ObjectShortName">bsv_wrep_ok</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/bsv_wdat_valid">
       <obj_property name="ElementShortName">bsv_wdat_valid[0:0]</obj_property>
@@ -859,18 +811,6 @@
    <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/pr_reset">
       <obj_property name="ElementShortName">pr_reset</obj_property>
       <obj_property name="ObjectShortName">pr_reset</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/mst_wrep_valid">
-      <obj_property name="ElementShortName">mst_wrep_valid</obj_property>
-      <obj_property name="ObjectShortName">mst_wrep_valid</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/mst_wrep_ready">
-      <obj_property name="ElementShortName">mst_wrep_ready</obj_property>
-      <obj_property name="ObjectShortName">mst_wrep_ready</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/mst_wrep_ok">
-      <obj_property name="ElementShortName">mst_wrep_ok</obj_property>
-      <obj_property name="ObjectShortName">mst_wrep_ok</obj_property>
    </wvobject>
    <wvobject type="other" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/BUS_ADDR_WIDTH">
       <obj_property name="ElementShortName">BUS_ADDR_WIDTH</obj_property>
@@ -955,5 +895,1741 @@
    <wvobject type="other" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/ptoa_wrapper_inst/REG_MAX_SIZE1">
       <obj_property name="ElementShortName">REG_MAX_SIZE1</obj_property>
       <obj_property name="ObjectShortName">REG_MAX_SIZE1</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1437" type="divider">
+      <obj_property name="label">MMIO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/reset_n">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_awvalid">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_awready">
+      <obj_property name="ElementShortName">s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_awaddr">
+      <obj_property name="ElementShortName">s_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_wvalid">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_wready">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_wdata">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_wstrb">
+      <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_bvalid">
+      <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_bready">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_bresp">
+      <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_arvalid">
+      <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_arready">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_araddr">
+      <obj_property name="ElementShortName">s_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_rvalid">
+      <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_rready">
+      <obj_property name="ElementShortName">s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_rdata">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_rresp">
+      <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/regs_out">
+      <obj_property name="ElementShortName">regs_out[479:0]</obj_property>
+      <obj_property name="ObjectShortName">regs_out[479:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/regs_in">
+      <obj_property name="ElementShortName">regs_in[479:0]</obj_property>
+      <obj_property name="ObjectShortName">regs_in[479:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/regs_in_en">
+      <obj_property name="ElementShortName">regs_in_en[14:0]</obj_property>
+      <obj_property name="ObjectShortName">regs_in_en[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_wall">
+      <obj_property name="ElementShortName">int_s_axi_wall[35:0]</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_wall[35:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_rall">
+      <obj_property name="ElementShortName">int_s_axi_rall[33:0]</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_rall[33:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_wall">
+      <obj_property name="ElementShortName">s_axi_wall[35:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wall[35:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/s_axi_rall">
+      <obj_property name="ElementShortName">s_axi_rall[33:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rall[33:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_awvalid">
+      <obj_property name="ElementShortName">int_s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_awready">
+      <obj_property name="ElementShortName">int_s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_awaddr">
+      <obj_property name="ElementShortName">int_s_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_wvalid">
+      <obj_property name="ElementShortName">int_s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_wready">
+      <obj_property name="ElementShortName">int_s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_wdata">
+      <obj_property name="ElementShortName">int_s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_wstrb">
+      <obj_property name="ElementShortName">int_s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_bvalid">
+      <obj_property name="ElementShortName">int_s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_bready">
+      <obj_property name="ElementShortName">int_s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_bresp">
+      <obj_property name="ElementShortName">int_s_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_arvalid">
+      <obj_property name="ElementShortName">int_s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_arready">
+      <obj_property name="ElementShortName">int_s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_araddr">
+      <obj_property name="ElementShortName">int_s_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_rvalid">
+      <obj_property name="ElementShortName">int_s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_rready">
+      <obj_property name="ElementShortName">int_s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_rdata">
+      <obj_property name="ElementShortName">int_s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/int_s_axi_rresp">
+      <obj_property name="ElementShortName">int_s_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">int_s_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/r">
+      <obj_property name="ElementShortName">r</obj_property>
+      <obj_property name="ObjectShortName">r</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/d">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/BUS_ADDR_WIDTH">
+      <obj_property name="ElementShortName">BUS_ADDR_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">BUS_ADDR_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/BUS_DATA_WIDTH">
+      <obj_property name="ElementShortName">BUS_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">BUS_DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/NUM_REGS">
+      <obj_property name="ElementShortName">NUM_REGS</obj_property>
+      <obj_property name="ObjectShortName">NUM_REGS</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/REG_CONFIG">
+      <obj_property name="ElementShortName">REG_CONFIG[1:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_CONFIG[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/REG_RESET">
+      <obj_property name="ElementShortName">REG_RESET[1:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_RESET[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/SLV_R_SLICE_DEPTH">
+      <obj_property name="ElementShortName">SLV_R_SLICE_DEPTH</obj_property>
+      <obj_property name="ObjectShortName">SLV_R_SLICE_DEPTH</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/SLV_W_SLICE_DEPTH">
+      <obj_property name="ElementShortName">SLV_W_SLICE_DEPTH</obj_property>
+      <obj_property name="ObjectShortName">SLV_W_SLICE_DEPTH</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/ARDCI">
+      <obj_property name="ElementShortName">ARDCI[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ARDCI[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/AWDCI">
+      <obj_property name="ElementShortName">AWDCI[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AWDCI[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/RESP_OK">
+      <obj_property name="ElementShortName">RESP_OK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RESP_OK[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/SLV_ADDR_LSB">
+      <obj_property name="ElementShortName">SLV_ADDR_LSB</obj_property>
+      <obj_property name="ObjectShortName">SLV_ADDR_LSB</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/SLV_ADDR_MSB">
+      <obj_property name="ElementShortName">SLV_ADDR_MSB</obj_property>
+      <obj_property name="ObjectShortName">SLV_ADDR_MSB</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/CL/FLETCHER_TOP_INST/axi_mmio_inst/comb_default">
+      <obj_property name="ElementShortName">comb_default</obj_property>
+      <obj_property name="ObjectShortName">comb_default</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider685" type="divider">
+      <obj_property name="label">axl_pc_bar1_slv</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_status">
+      <obj_property name="ElementShortName">pc_status[96:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_status[96:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_asserted">
+      <obj_property name="ElementShortName">pc_asserted</obj_property>
+      <obj_property name="ObjectShortName">pc_asserted</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/system_resetn">
+      <obj_property name="ElementShortName">system_resetn</obj_property>
+      <obj_property name="ObjectShortName">system_resetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/aresetn">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awid">
+      <obj_property name="ElementShortName">pc_axi_awid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awaddr">
+      <obj_property name="ElementShortName">pc_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awlen">
+      <obj_property name="ElementShortName">pc_axi_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awsize">
+      <obj_property name="ElementShortName">pc_axi_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awburst">
+      <obj_property name="ElementShortName">pc_axi_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awlock">
+      <obj_property name="ElementShortName">pc_axi_awlock[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awlock[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awcache">
+      <obj_property name="ElementShortName">pc_axi_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awprot">
+      <obj_property name="ElementShortName">pc_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awqos">
+      <obj_property name="ElementShortName">pc_axi_awqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awregion">
+      <obj_property name="ElementShortName">pc_axi_awregion[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awregion[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awuser">
+      <obj_property name="ElementShortName">pc_axi_awuser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awuser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awvalid">
+      <obj_property name="ElementShortName">pc_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_awready">
+      <obj_property name="ElementShortName">pc_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_wid">
+      <obj_property name="ElementShortName">pc_axi_wid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_wid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_wlast">
+      <obj_property name="ElementShortName">pc_axi_wlast</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_wlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_wdata">
+      <obj_property name="ElementShortName">pc_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_wstrb">
+      <obj_property name="ElementShortName">pc_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_wuser">
+      <obj_property name="ElementShortName">pc_axi_wuser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_wuser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_wvalid">
+      <obj_property name="ElementShortName">pc_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_wready">
+      <obj_property name="ElementShortName">pc_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_bid">
+      <obj_property name="ElementShortName">pc_axi_bid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_bid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_bresp">
+      <obj_property name="ElementShortName">pc_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_buser">
+      <obj_property name="ElementShortName">pc_axi_buser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_buser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_bvalid">
+      <obj_property name="ElementShortName">pc_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_bready">
+      <obj_property name="ElementShortName">pc_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arid">
+      <obj_property name="ElementShortName">pc_axi_arid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_araddr">
+      <obj_property name="ElementShortName">pc_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arlen">
+      <obj_property name="ElementShortName">pc_axi_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arsize">
+      <obj_property name="ElementShortName">pc_axi_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arburst">
+      <obj_property name="ElementShortName">pc_axi_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arlock">
+      <obj_property name="ElementShortName">pc_axi_arlock[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arlock[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arcache">
+      <obj_property name="ElementShortName">pc_axi_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arprot">
+      <obj_property name="ElementShortName">pc_axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arqos">
+      <obj_property name="ElementShortName">pc_axi_arqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arregion">
+      <obj_property name="ElementShortName">pc_axi_arregion[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arregion[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_aruser">
+      <obj_property name="ElementShortName">pc_axi_aruser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_aruser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arvalid">
+      <obj_property name="ElementShortName">pc_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_arready">
+      <obj_property name="ElementShortName">pc_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_rid">
+      <obj_property name="ElementShortName">pc_axi_rid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_rid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_rlast">
+      <obj_property name="ElementShortName">pc_axi_rlast</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_rlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_rdata">
+      <obj_property name="ElementShortName">pc_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_rresp">
+      <obj_property name="ElementShortName">pc_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_ruser">
+      <obj_property name="ElementShortName">pc_axi_ruser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_ruser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_rvalid">
+      <obj_property name="ElementShortName">pc_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_axi_rready">
+      <obj_property name="ElementShortName">pc_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">pc_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/resetn_q">
+      <obj_property name="ElementShortName">resetn_q</obj_property>
+      <obj_property name="ObjectShortName">resetn_q</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awid_q">
+      <obj_property name="ElementShortName">awid_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">awid_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awaddr_q">
+      <obj_property name="ElementShortName">awaddr_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awlen_q">
+      <obj_property name="ElementShortName">awlen_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">awlen_q[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awsize_q">
+      <obj_property name="ElementShortName">awsize_q[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awsize_q[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awburst_q">
+      <obj_property name="ElementShortName">awburst_q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">awburst_q[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awlock_q">
+      <obj_property name="ElementShortName">awlock_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">awlock_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awcache_q">
+      <obj_property name="ElementShortName">awcache_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">awcache_q[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awprot_q">
+      <obj_property name="ElementShortName">awprot_q[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awprot_q[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awqos_q">
+      <obj_property name="ElementShortName">awqos_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">awqos_q[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awregion_q">
+      <obj_property name="ElementShortName">awregion_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">awregion_q[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awuser_q">
+      <obj_property name="ElementShortName">awuser_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">awuser_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awvalid_q">
+      <obj_property name="ElementShortName">awvalid_q</obj_property>
+      <obj_property name="ObjectShortName">awvalid_q</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/awready_q">
+      <obj_property name="ElementShortName">awready_q</obj_property>
+      <obj_property name="ObjectShortName">awready_q</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/wlast_q">
+      <obj_property name="ElementShortName">wlast_q</obj_property>
+      <obj_property name="ObjectShortName">wlast_q</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/wdata_q">
+      <obj_property name="ElementShortName">wdata_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/wstrb_q">
+      <obj_property name="ElementShortName">wstrb_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wstrb_q[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/wuser_q">
+      <obj_property name="ElementShortName">wuser_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wuser_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/wvalid_q">
+      <obj_property name="ElementShortName">wvalid_q</obj_property>
+      <obj_property name="ObjectShortName">wvalid_q</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/wready_q">
+      <obj_property name="ElementShortName">wready_q</obj_property>
+      <obj_property name="ObjectShortName">wready_q</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/bid_q">
+      <obj_property name="ElementShortName">bid_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">bid_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/bresp_q">
+      <obj_property name="ElementShortName">bresp_q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp_q[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/buser_q">
+      <obj_property name="ElementShortName">buser_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">buser_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/bvalid_q">
+      <obj_property name="ElementShortName">bvalid_q</obj_property>
+      <obj_property name="ObjectShortName">bvalid_q</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/bready_q">
+      <obj_property name="ElementShortName">bready_q</obj_property>
+      <obj_property name="ObjectShortName">bready_q</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arid_q">
+      <obj_property name="ElementShortName">arid_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">arid_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/araddr_q">
+      <obj_property name="ElementShortName">araddr_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arlen_q">
+      <obj_property name="ElementShortName">arlen_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">arlen_q[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arsize_q">
+      <obj_property name="ElementShortName">arsize_q[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arsize_q[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arburst_q">
+      <obj_property name="ElementShortName">arburst_q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">arburst_q[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arlock_q">
+      <obj_property name="ElementShortName">arlock_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">arlock_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arcache_q">
+      <obj_property name="ElementShortName">arcache_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">arcache_q[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arprot_q">
+      <obj_property name="ElementShortName">arprot_q[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arprot_q[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arqos_q">
+      <obj_property name="ElementShortName">arqos_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">arqos_q[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arregion_q">
+      <obj_property name="ElementShortName">arregion_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">arregion_q[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/aruser_q">
+      <obj_property name="ElementShortName">aruser_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">aruser_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arvalid_q">
+      <obj_property name="ElementShortName">arvalid_q</obj_property>
+      <obj_property name="ObjectShortName">arvalid_q</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/arready_q">
+      <obj_property name="ElementShortName">arready_q</obj_property>
+      <obj_property name="ObjectShortName">arready_q</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/rid_q">
+      <obj_property name="ElementShortName">rid_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rid_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/rlast_q">
+      <obj_property name="ElementShortName">rlast_q</obj_property>
+      <obj_property name="ObjectShortName">rlast_q</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/rdata_q">
+      <obj_property name="ElementShortName">rdata_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/rresp_q">
+      <obj_property name="ElementShortName">rresp_q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rresp_q[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/ruser_q">
+      <obj_property name="ElementShortName">ruser_q[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ruser_q[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/rvalid_q">
+      <obj_property name="ElementShortName">rvalid_q</obj_property>
+      <obj_property name="ObjectShortName">rvalid_q</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/rready_q">
+      <obj_property name="ElementShortName">rready_q</obj_property>
+      <obj_property name="ObjectShortName">rready_q</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/pc_asserted_i">
+      <obj_property name="ElementShortName">pc_asserted_i</obj_property>
+      <obj_property name="ObjectShortName">pc_asserted_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_AXI_PROTOCOL">
+      <obj_property name="ElementShortName">C_AXI_PROTOCOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_PROTOCOL[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_AXI_ID_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_ID_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_ID_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_AXI_DATA_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_AXI_ADDR_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_AXI_AWUSER_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_AWUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_AWUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_AXI_ARUSER_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_ARUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_ARUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_AXI_WUSER_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_WUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_WUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_AXI_RUSER_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_RUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_RUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_AXI_BUSER_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_BUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_BUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_MAXRBURSTS">
+      <obj_property name="ElementShortName">C_PC_MAXRBURSTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_MAXRBURSTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_MAXWBURSTS">
+      <obj_property name="ElementShortName">C_PC_MAXWBURSTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_MAXWBURSTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_EXMON_WIDTH">
+      <obj_property name="ElementShortName">C_PC_EXMON_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_EXMON_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_AW_MAXWAITS">
+      <obj_property name="ElementShortName">C_PC_AW_MAXWAITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_AW_MAXWAITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_AR_MAXWAITS">
+      <obj_property name="ElementShortName">C_PC_AR_MAXWAITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_AR_MAXWAITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_W_MAXWAITS">
+      <obj_property name="ElementShortName">C_PC_W_MAXWAITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_W_MAXWAITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_R_MAXWAITS">
+      <obj_property name="ElementShortName">C_PC_R_MAXWAITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_R_MAXWAITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_B_MAXWAITS">
+      <obj_property name="ElementShortName">C_PC_B_MAXWAITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_B_MAXWAITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_MESSAGE_LEVEL">
+      <obj_property name="ElementShortName">C_PC_MESSAGE_LEVEL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_MESSAGE_LEVEL[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_SUPPORTS_NARROW_BURST">
+      <obj_property name="ElementShortName">C_PC_SUPPORTS_NARROW_BURST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_SUPPORTS_NARROW_BURST[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_MAX_BURST_LENGTH">
+      <obj_property name="ElementShortName">C_PC_MAX_BURST_LENGTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_MAX_BURST_LENGTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_HAS_SYSTEM_RESET">
+      <obj_property name="ElementShortName">C_PC_HAS_SYSTEM_RESET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_HAS_SYSTEM_RESET[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/C_PC_STATUS_WIDTH">
+      <obj_property name="ElementShortName">C_PC_STATUS_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_STATUS_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/LP_AXI_SIZE">
+      <obj_property name="ElementShortName">LP_AXI_SIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">LP_AXI_SIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/pc_status">
+      <obj_property name="ElementShortName">pc_status[96:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_status[96:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ACLK">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARST_N">
+      <obj_property name="ElementShortName">ARST_N</obj_property>
+      <obj_property name="ObjectShortName">ARST_N</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWID">
+      <obj_property name="ElementShortName">AWID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">AWID[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWADDR">
+      <obj_property name="ElementShortName">AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWLEN">
+      <obj_property name="ElementShortName">AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AWLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWSIZE">
+      <obj_property name="ElementShortName">AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AWSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWBURST">
+      <obj_property name="ElementShortName">AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AWBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWLOCK">
+      <obj_property name="ElementShortName">AWLOCK[0:0]</obj_property>
+      <obj_property name="ObjectShortName">AWLOCK[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWCACHE">
+      <obj_property name="ElementShortName">AWCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AWCACHE[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWPROT">
+      <obj_property name="ElementShortName">AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AWPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWQOS">
+      <obj_property name="ElementShortName">AWQOS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AWQOS[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWREGION">
+      <obj_property name="ElementShortName">AWREGION[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AWREGION[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWUSER">
+      <obj_property name="ElementShortName">AWUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">AWUSER[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWVALID">
+      <obj_property name="ElementShortName">AWVALID</obj_property>
+      <obj_property name="ObjectShortName">AWVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWREADY">
+      <obj_property name="ElementShortName">AWREADY</obj_property>
+      <obj_property name="ObjectShortName">AWREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WLAST">
+      <obj_property name="ElementShortName">WLAST</obj_property>
+      <obj_property name="ObjectShortName">WLAST</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WDATA">
+      <obj_property name="ElementShortName">WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WSTRB">
+      <obj_property name="ElementShortName">WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WUSER">
+      <obj_property name="ElementShortName">WUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">WUSER[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WVALID">
+      <obj_property name="ElementShortName">WVALID</obj_property>
+      <obj_property name="ObjectShortName">WVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WREADY">
+      <obj_property name="ElementShortName">WREADY</obj_property>
+      <obj_property name="ObjectShortName">WREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/BID">
+      <obj_property name="ElementShortName">BID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">BID[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/BRESP">
+      <obj_property name="ElementShortName">BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/BUSER">
+      <obj_property name="ElementShortName">BUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">BUSER[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/BVALID">
+      <obj_property name="ElementShortName">BVALID</obj_property>
+      <obj_property name="ObjectShortName">BVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/BREADY">
+      <obj_property name="ElementShortName">BREADY</obj_property>
+      <obj_property name="ObjectShortName">BREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARID">
+      <obj_property name="ElementShortName">ARID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ARID[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARADDR">
+      <obj_property name="ElementShortName">ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARLEN">
+      <obj_property name="ElementShortName">ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ARLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARSIZE">
+      <obj_property name="ElementShortName">ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ARSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARBURST">
+      <obj_property name="ElementShortName">ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ARBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARLOCK">
+      <obj_property name="ElementShortName">ARLOCK[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ARLOCK[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARCACHE">
+      <obj_property name="ElementShortName">ARCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ARCACHE[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARPROT">
+      <obj_property name="ElementShortName">ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ARPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARQOS">
+      <obj_property name="ElementShortName">ARQOS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ARQOS[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARREGION">
+      <obj_property name="ElementShortName">ARREGION[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ARREGION[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARUSER">
+      <obj_property name="ElementShortName">ARUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ARUSER[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARVALID">
+      <obj_property name="ElementShortName">ARVALID</obj_property>
+      <obj_property name="ObjectShortName">ARVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARREADY">
+      <obj_property name="ElementShortName">ARREADY</obj_property>
+      <obj_property name="ObjectShortName">ARREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RID">
+      <obj_property name="ElementShortName">RID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">RID[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RLAST">
+      <obj_property name="ElementShortName">RLAST</obj_property>
+      <obj_property name="ObjectShortName">RLAST</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RDATA">
+      <obj_property name="ElementShortName">RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RRESP">
+      <obj_property name="ElementShortName">RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RUSER">
+      <obj_property name="ElementShortName">RUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">RUSER[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RVALID">
+      <obj_property name="ElementShortName">RVALID</obj_property>
+      <obj_property name="ObjectShortName">RVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RREADY">
+      <obj_property name="ElementShortName">RREADY</obj_property>
+      <obj_property name="ObjectShortName">RREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/internal_AWLOCK">
+      <obj_property name="ElementShortName">internal_AWLOCK</obj_property>
+      <obj_property name="ObjectShortName">internal_AWLOCK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/internal_ARLOCK">
+      <obj_property name="ElementShortName">internal_ARLOCK</obj_property>
+      <obj_property name="ObjectShortName">internal_ARLOCK</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/Axi4PC_asr_inline_out">
+      <obj_property name="ElementShortName">Axi4PC_asr_inline_out[87:1]</obj_property>
+      <obj_property name="ObjectShortName">Axi4PC_asr_inline_out[87:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/Axi4LitePC_asr_inline_out">
+      <obj_property name="ElementShortName">Axi4LitePC_asr_inline_out[3:1]</obj_property>
+      <obj_property name="ObjectShortName">Axi4LitePC_asr_inline_out[3:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/xilinx_inline_out">
+      <obj_property name="ElementShortName">xilinx_inline_out[11:1]</obj_property>
+      <obj_property name="ObjectShortName">xilinx_inline_out[11:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/Axi4PC_aux">
+      <obj_property name="ElementShortName">Axi4PC_aux[5:1]</obj_property>
+      <obj_property name="ObjectShortName">Axi4PC_aux[5:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AlignMaskR">
+      <obj_property name="ElementShortName">AlignMaskR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">AlignMaskR[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AlignMaskW">
+      <obj_property name="ElementShortName">AlignMaskW[6:0]</obj_property>
+      <obj_property name="ObjectShortName">AlignMaskW[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclMask">
+      <obj_property name="ElementShortName">ExclMask[14:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclMask[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ArAddrIncr">
+      <obj_property name="ElementShortName">ArAddrIncr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ArAddrIncr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AwAddrIncr">
+      <obj_property name="ElementShortName">AwAddrIncr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AwAddrIncr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ArLenInBytes">
+      <obj_property name="ElementShortName">ArLenInBytes[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ArLenInBytes[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ArSizeInBits">
+      <obj_property name="ElementShortName">ArSizeInBits[10:0]</obj_property>
+      <obj_property name="ObjectShortName">ArSizeInBits[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AwSizeInBits">
+      <obj_property name="ElementShortName">AwSizeInBits[10:0]</obj_property>
+      <obj_property name="ObjectShortName">AwSizeInBits[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ArExclPending">
+      <obj_property name="ElementShortName">ArExclPending</obj_property>
+      <obj_property name="ObjectShortName">ArExclPending</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WriteDataNumError">
+      <obj_property name="ElementShortName">WriteDataNumError</obj_property>
+      <obj_property name="ObjectShortName">WriteDataNumError</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/BStrbError">
+      <obj_property name="ElementShortName">BStrbError</obj_property>
+      <obj_property name="ObjectShortName">BStrbError</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ArCountPending">
+      <obj_property name="ElementShortName">ArCountPending[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ArCountPending[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ArLenPending">
+      <obj_property name="ElementShortName">ArLenPending[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ArLenPending[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RidMatch_index">
+      <obj_property name="ElementShortName">RidMatch_index</obj_property>
+      <obj_property name="ObjectShortName">RidMatch_index</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RidMatch">
+      <obj_property name="ElementShortName">RidMatch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RidMatch[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/i_RecommendOn">
+      <obj_property name="ElementShortName">i_RecommendOn</obj_property>
+      <obj_property name="ObjectShortName">i_RecommendOn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/i_RecMaxWaitOn">
+      <obj_property name="ElementShortName">i_RecMaxWaitOn</obj_property>
+      <obj_property name="ObjectShortName">i_RecMaxWaitOn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclAwId">
+      <obj_property name="ElementShortName">ExclAwId[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclAwId[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclIdOverflow">
+      <obj_property name="ElementShortName">ExclIdOverflow</obj_property>
+      <obj_property name="ObjectShortName">ExclIdOverflow</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclAddr_indexed">
+      <obj_property name="ElementShortName">ExclAddr_indexed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclAddr_indexed[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclSize_indexed">
+      <obj_property name="ElementShortName">ExclSize_indexed[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclSize_indexed[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclLen_indexed">
+      <obj_property name="ElementShortName">ExclLen_indexed[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclLen_indexed[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclBurst_indexed">
+      <obj_property name="ElementShortName">ExclBurst_indexed[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclBurst_indexed[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclCache_indexed">
+      <obj_property name="ElementShortName">ExclCache_indexed[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclCache_indexed[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclProt_indexed">
+      <obj_property name="ElementShortName">ExclProt_indexed[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclProt_indexed[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclRegion_indexed">
+      <obj_property name="ElementShortName">ExclRegion_indexed[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclRegion_indexed[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclReadAddr_indexed">
+      <obj_property name="ElementShortName">ExclReadAddr_indexed</obj_property>
+      <obj_property name="ObjectShortName">ExclReadAddr_indexed</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclReadData_indexed">
+      <obj_property name="ElementShortName">ExclReadData_indexed</obj_property>
+      <obj_property name="ObjectShortName">ExclReadData_indexed</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WCountIn">
+      <obj_property name="ElementShortName">WCountIn[8:0]</obj_property>
+      <obj_property name="ObjectShortName">WCountIn[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WDataOut">
+      <obj_property name="ElementShortName">WDataOut[0:1]</obj_property>
+      <obj_property name="ObjectShortName">WDataOut[0:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WDataNumError1">
+      <obj_property name="ElementShortName">WDataNumError1</obj_property>
+      <obj_property name="ObjectShortName">WDataNumError1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/BrespErrorLead">
+      <obj_property name="ElementShortName">BrespErrorLead</obj_property>
+      <obj_property name="ObjectShortName">BrespErrorLead</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RBurstCam_index">
+      <obj_property name="ElementShortName">RBurstCam_index[20:0]</obj_property>
+      <obj_property name="ObjectShortName">RBurstCam_index[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RBurstCam">
+      <obj_property name="ElementShortName">RBurstCam[20:0]</obj_property>
+      <obj_property name="ObjectShortName">RBurstCam[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RCountCam_index">
+      <obj_property name="ElementShortName">RCountCam_index[8:0]</obj_property>
+      <obj_property name="ObjectShortName">RCountCam_index[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RCountCam">
+      <obj_property name="ElementShortName">RCountCam[8:0]</obj_property>
+      <obj_property name="ObjectShortName">RCountCam[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RCountCam1">
+      <obj_property name="ElementShortName">RCountCam1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">RCountCam1[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RCount">
+      <obj_property name="ElementShortName">RCount[0:1][8:0]</obj_property>
+      <obj_property name="ObjectShortName">RCount[0:1][8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RCountIncr">
+      <obj_property name="ElementShortName">RCountIncr[0:1]</obj_property>
+      <obj_property name="ObjectShortName">RCountIncr[0:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/Burst">
+      <obj_property name="ElementShortName">Burst[20:0]</obj_property>
+      <obj_property name="ObjectShortName">Burst[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RDataOut">
+      <obj_property name="ElementShortName">RDataOut[0:1][20:0]</obj_property>
+      <obj_property name="ObjectShortName">RDataOut[0:1][20:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/REmpty">
+      <obj_property name="ElementShortName">REmpty[1:0]</obj_property>
+      <obj_property name="ObjectShortName">REmpty[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RFull">
+      <obj_property name="ElementShortName">RFull[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RFull[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/awaddr">
+      <obj_property name="ElementShortName">awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/araddr">
+      <obj_property name="ElementShortName">araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWIDOut">
+      <obj_property name="ElementShortName">AWIDOut[0:0]</obj_property>
+      <obj_property name="ObjectShortName">AWIDOut[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWLENOut">
+      <obj_property name="ElementShortName">AWLENOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AWLENOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWStrbAddrOut">
+      <obj_property name="ElementShortName">AWStrbAddrOut[6:0]</obj_property>
+      <obj_property name="ObjectShortName">AWStrbAddrOut[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWStrbsizeOut">
+      <obj_property name="ElementShortName">AWStrbsizeOut[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AWStrbsizeOut[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWEmpty">
+      <obj_property name="ElementShortName">AWEmpty</obj_property>
+      <obj_property name="ObjectShortName">AWEmpty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWFull">
+      <obj_property name="ElementShortName">AWFull</obj_property>
+      <obj_property name="ObjectShortName">AWFull</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WCheckCountOut">
+      <obj_property name="ElementShortName">WCheckCountOut[8:0]</obj_property>
+      <obj_property name="ObjectShortName">WCheckCountOut[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WCheckstrbOut">
+      <obj_property name="ElementShortName">WCheckstrbOut[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WCheckstrbOut[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WCheckEmpty">
+      <obj_property name="ElementShortName">WCheckEmpty</obj_property>
+      <obj_property name="ObjectShortName">WCheckEmpty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WCheckFull">
+      <obj_property name="ElementShortName">WCheckFull</obj_property>
+      <obj_property name="ObjectShortName">WCheckFull</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WSTRBq">
+      <obj_property name="ElementShortName">WSTRBq[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WSTRBq[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WstrbIn">
+      <obj_property name="ElementShortName">WstrbIn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WstrbIn[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/first_strb">
+      <obj_property name="ElementShortName">first_strb</obj_property>
+      <obj_property name="ObjectShortName">first_strb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/wcheckPop">
+      <obj_property name="ElementShortName">wcheckPop</obj_property>
+      <obj_property name="ObjectShortName">wcheckPop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWXferCount">
+      <obj_property name="ElementShortName">AWXferCount[0:1][3:0]</obj_property>
+      <obj_property name="ObjectShortName">AWXferCount[0:1][3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWXferCountOverflow">
+      <obj_property name="ElementShortName">AWXferCountOverflow</obj_property>
+      <obj_property name="ObjectShortName">AWXferCountOverflow</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWPush">
+      <obj_property name="ElementShortName">AWPush</obj_property>
+      <obj_property name="ObjectShortName">AWPush</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WLastPush">
+      <obj_property name="ElementShortName">WLastPush</obj_property>
+      <obj_property name="ObjectShortName">WLastPush</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/reset_i">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/resetn_out">
+      <obj_property name="ElementShortName">resetn_out</obj_property>
+      <obj_property name="ObjectShortName">resetn_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/checker_main_resetn">
+      <obj_property name="ElementShortName">checker_main_resetn</obj_property>
+      <obj_property name="ObjectShortName">checker_main_resetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/reset_resync">
+      <obj_property name="ElementShortName">reset_resync[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reset_resync[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/accept_cnt">
+      <obj_property name="ElementShortName">accept_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">accept_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/thread_valid">
+      <obj_property name="ElementShortName">thread_valid[1:0]</obj_property>
+      <obj_property name="ObjectShortName">thread_valid[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/aid_match">
+      <obj_property name="ElementShortName">aid_match[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aid_match[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/rid_match">
+      <obj_property name="ElementShortName">rid_match[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rid_match[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/cmd_push">
+      <obj_property name="ElementShortName">cmd_push[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_push[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/cmd_pop">
+      <obj_property name="ElementShortName">cmd_pop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_pop[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/accum_push">
+      <obj_property name="ElementShortName">accum_push[2:0]</obj_property>
+      <obj_property name="ObjectShortName">accum_push[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/active_id">
+      <obj_property name="ElementShortName">active_id[1:0]</obj_property>
+      <obj_property name="ObjectShortName">active_id[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/active_cnt">
+      <obj_property name="ElementShortName">active_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">active_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/any_aid_match">
+      <obj_property name="ElementShortName">any_aid_match</obj_property>
+      <obj_property name="ObjectShortName">any_aid_match</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/any_rid_match">
+      <obj_property name="ElementShortName">any_rid_match</obj_property>
+      <obj_property name="ObjectShortName">any_rid_match</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/accept_limit">
+      <obj_property name="ElementShortName">accept_limit</obj_property>
+      <obj_property name="ObjectShortName">accept_limit</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/any_push">
+      <obj_property name="ElementShortName">any_push</obj_property>
+      <obj_property name="ObjectShortName">any_push</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/any_pop">
+      <obj_property name="ElementShortName">any_pop</obj_property>
+      <obj_property name="ObjectShortName">any_pop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/gen_match">
+      <obj_property name="ElementShortName">gen_match[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gen_match[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclIdWrPtr">
+      <obj_property name="ElementShortName">ExclIdWrPtr[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclIdWrPtr[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclId">
+      <obj_property name="ElementShortName">ExclId[1:0][0:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclId[1:0][0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclIdDelta">
+      <obj_property name="ElementShortName">ExclIdDelta</obj_property>
+      <obj_property name="ObjectShortName">ExclIdDelta</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclIdValid">
+      <obj_property name="ElementShortName">ExclIdValid[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclIdValid[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclIdFull">
+      <obj_property name="ElementShortName">ExclIdFull</obj_property>
+      <obj_property name="ObjectShortName">ExclIdFull</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclIdFreePtr">
+      <obj_property name="ElementShortName">ExclIdFreePtr[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclIdFreePtr[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclAwMatch">
+      <obj_property name="ElementShortName">ExclAwMatch</obj_property>
+      <obj_property name="ObjectShortName">ExclAwMatch</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclArId">
+      <obj_property name="ElementShortName">ExclArId[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclArId[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclArMatch">
+      <obj_property name="ElementShortName">ExclArMatch</obj_property>
+      <obj_property name="ObjectShortName">ExclArMatch</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclRId">
+      <obj_property name="ElementShortName">ExclRId[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclRId[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclRMatch">
+      <obj_property name="ElementShortName">ExclRMatch</obj_property>
+      <obj_property name="ObjectShortName">ExclRMatch</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclReadAddr">
+      <obj_property name="ElementShortName">ExclReadAddr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclReadAddr[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclReadData">
+      <obj_property name="ElementShortName">ExclReadData[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclReadData[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclAddr">
+      <obj_property name="ElementShortName">ExclAddr[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclAddr[1:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclSize">
+      <obj_property name="ElementShortName">ExclSize[1:0][2:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclSize[1:0][2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclLen">
+      <obj_property name="ElementShortName">ExclLen[1:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclLen[1:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclBurst">
+      <obj_property name="ElementShortName">ExclBurst[1:0][1:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclBurst[1:0][1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclCache">
+      <obj_property name="ElementShortName">ExclCache[1:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclCache[1:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclProt">
+      <obj_property name="ElementShortName">ExclProt[1:0][2:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclProt[1:0][2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclQos">
+      <obj_property name="ElementShortName">ExclQos[1:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclQos[1:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclRegion">
+      <obj_property name="ElementShortName">ExclRegion[1:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclRegion[1:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ExclUser">
+      <obj_property name="ElementShortName">ExclUser[1:0][0:0]</obj_property>
+      <obj_property name="ObjectShortName">ExclUser[1:0][0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/pc_status_i">
+      <obj_property name="ElementShortName">pc_status_i[96:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_status_i[96:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/pc_status_masked">
+      <obj_property name="ElementShortName">pc_status_masked[96:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_status_masked[96:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/id_cnt">
+      <obj_property name="ElementShortName">id_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/StrbMask_q1">
+      <obj_property name="ElementShortName">StrbMask_q1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">StrbMask_q1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/StrbMask_q2">
+      <obj_property name="ElementShortName">StrbMask_q2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">StrbMask_q2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/StrbMask_q3_n">
+      <obj_property name="ElementShortName">StrbMask_q3_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">StrbMask_q3_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/StrbAddr_q1">
+      <obj_property name="ElementShortName">StrbAddr_q1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">StrbAddr_q1[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/StrbAddr_q2">
+      <obj_property name="ElementShortName">StrbAddr_q2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">StrbAddr_q2[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/StrbSize_q1">
+      <obj_property name="ElementShortName">StrbSize_q1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">StrbSize_q1[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/StrbSize_q2">
+      <obj_property name="ElementShortName">StrbSize_q2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">StrbSize_q2[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/Strb_q1">
+      <obj_property name="ElementShortName">Strb_q1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Strb_q1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/Strb_q2">
+      <obj_property name="ElementShortName">Strb_q2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Strb_q2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/Strb_q3">
+      <obj_property name="ElementShortName">Strb_q3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Strb_q3[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/wchechPop_shift">
+      <obj_property name="ElementShortName">wchechPop_shift[6:0]</obj_property>
+      <obj_property name="ObjectShortName">wchechPop_shift[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/CheckStrbAssert">
+      <obj_property name="ElementShortName">CheckStrbAssert</obj_property>
+      <obj_property name="ObjectShortName">CheckStrbAssert</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/mask_shift_stage_1">
+      <obj_property name="ElementShortName">mask_shift_stage_1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">mask_shift_stage_1[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/mask_shift_stage_2">
+      <obj_property name="ElementShortName">mask_shift_stage_2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">mask_shift_stage_2[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/mask_shift_stage_2_q1">
+      <obj_property name="ElementShortName">mask_shift_stage_2_q1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">mask_shift_stage_2_q1[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/CHKSTRB_eq">
+      <obj_property name="ElementShortName">CHKSTRB_eq[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CHKSTRB_eq[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/CHKSTRB_stage_1_eq">
+      <obj_property name="ElementShortName">CHKSTRB_stage_1_eq[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CHKSTRB_stage_1_eq[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/CHKSTRB_stage_2_eq">
+      <obj_property name="ElementShortName">CHKSTRB_stage_2_eq[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CHKSTRB_stage_2_eq[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/CHKSTRB_bc">
+      <obj_property name="ElementShortName">CHKSTRB_bc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CHKSTRB_bc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/CHKSTRB_stage_1">
+      <obj_property name="ElementShortName">CHKSTRB_stage_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CHKSTRB_stage_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/CHKSTRB_stage_2">
+      <obj_property name="ElementShortName">CHKSTRB_stage_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CHKSTRB_stage_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/awready_s">
+      <obj_property name="ElementShortName">awready_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awready_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/wready_s">
+      <obj_property name="ElementShortName">wready_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wready_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/bready_s">
+      <obj_property name="ElementShortName">bready_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bready_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/arready_s">
+      <obj_property name="ElementShortName">arready_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arready_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/rready_s">
+      <obj_property name="ElementShortName">rready_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rready_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/awready_sq">
+      <obj_property name="ElementShortName">awready_sq[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awready_sq[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/wready_sq">
+      <obj_property name="ElementShortName">wready_sq[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wready_sq[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/bready_sq">
+      <obj_property name="ElementShortName">bready_sq[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bready_sq[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/arready_sq">
+      <obj_property name="ElementShortName">arready_sq[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arready_sq[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/rready_sq">
+      <obj_property name="ElementShortName">rready_sq[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rready_sq[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_ERROR_COUNT">
+      <obj_property name="ElementShortName">C_ERROR_COUNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_ERROR_COUNT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_AXI_ID_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_ID_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_ID_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_AXI_DATA_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_AXI_ADDR_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_AXI_AWUSER_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_AWUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_AWUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_AXI_WUSER_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_WUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_WUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_AXI_BUSER_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_BUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_BUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_AXI_ARUSER_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_ARUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_ARUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_AXI_RUSER_WIDTH">
+      <obj_property name="ElementShortName">C_AXI_RUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_RUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_AXI_PROTOCOL">
+      <obj_property name="ElementShortName">C_AXI_PROTOCOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_AXI_PROTOCOL[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/MAXRBURSTS">
+      <obj_property name="ElementShortName">MAXRBURSTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAXRBURSTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/MAXWBURSTS">
+      <obj_property name="ElementShortName">MAXWBURSTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAXWBURSTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/EXMON_WIDTH">
+      <obj_property name="ElementShortName">EXMON_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMON_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RecommendOn">
+      <obj_property name="ElementShortName">RecommendOn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RecommendOn[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RecommendWaitOn">
+      <obj_property name="ElementShortName">RecommendWaitOn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RecommendWaitOn[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/MAX_AW_WAITS">
+      <obj_property name="ElementShortName">MAX_AW_WAITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_AW_WAITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/MAX_AR_WAITS">
+      <obj_property name="ElementShortName">MAX_AR_WAITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_AR_WAITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/MAX_W_WAITS">
+      <obj_property name="ElementShortName">MAX_W_WAITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_W_WAITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/MAX_R_WAITS">
+      <obj_property name="ElementShortName">MAX_R_WAITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_R_WAITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/MAX_B_WAITS">
+      <obj_property name="ElementShortName">MAX_B_WAITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_B_WAITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_PC_SUPPORTS_NARROW_BURST">
+      <obj_property name="ElementShortName">C_PC_SUPPORTS_NARROW_BURST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_SUPPORTS_NARROW_BURST[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_PC_HAS_SYSTEM_RESET">
+      <obj_property name="ElementShortName">C_PC_HAS_SYSTEM_RESET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_HAS_SYSTEM_RESET[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/C_PC_MAX_BURST_LENGTH">
+      <obj_property name="ElementShortName">C_PC_MAX_BURST_LENGTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_PC_MAX_BURST_LENGTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WEXCL">
+      <obj_property name="ElementShortName">WEXCL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WEXCL[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WALENLO">
+      <obj_property name="ElementShortName">WALENLO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WALENLO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WALENHI">
+      <obj_property name="ElementShortName">WALENHI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WALENHI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WADDRLO">
+      <obj_property name="ElementShortName">WADDRLO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WADDRLO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WADDRHI">
+      <obj_property name="ElementShortName">WADDRHI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WADDRHI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WASIZELO">
+      <obj_property name="ElementShortName">WASIZELO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WASIZELO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WASIZEHI">
+      <obj_property name="ElementShortName">WASIZEHI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WASIZEHI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/STRB_WIDTH">
+      <obj_property name="ElementShortName">STRB_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STRB_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/LOG2_STRB_WIDTH">
+      <obj_property name="ElementShortName">LOG2_STRB_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LOG2_STRB_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ID_MAX">
+      <obj_property name="ElementShortName">ID_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/P_NUM_THREADS">
+      <obj_property name="ElementShortName">P_NUM_THREADS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">P_NUM_THREADS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/P_ACCEPTANCE_LOG">
+      <obj_property name="ElementShortName">P_ACCEPTANCE_LOG[31:0]</obj_property>
+      <obj_property name="ObjectShortName">P_ACCEPTANCE_LOG[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ID_SIZE">
+      <obj_property name="ElementShortName">ID_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ADDRLO">
+      <obj_property name="ElementShortName">ADDRLO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRLO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ADDRHI">
+      <obj_property name="ElementShortName">ADDRHI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRHI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/EXCL">
+      <obj_property name="ElementShortName">EXCL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXCL[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ALENLO">
+      <obj_property name="ElementShortName">ALENLO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALENLO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ALENHI">
+      <obj_property name="ElementShortName">ALENHI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALENHI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ASIZELO">
+      <obj_property name="ElementShortName">ASIZELO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ASIZELO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ASIZEHI">
+      <obj_property name="ElementShortName">ASIZEHI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ASIZEHI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/BURSTLO">
+      <obj_property name="ElementShortName">BURSTLO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BURSTLO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/BURSTHI">
+      <obj_property name="ElementShortName">BURSTHI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BURSTHI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/LP_ADDR_WIDTH">
+      <obj_property name="ElementShortName">LP_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LP_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/LP_EXMON_WIDTH">
+      <obj_property name="ElementShortName">LP_EXMON_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LP_EXMON_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/DATA_MAX">
+      <obj_property name="ElementShortName">DATA_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/EXMON_HI">
+      <obj_property name="ElementShortName">EXMON_HI</obj_property>
+      <obj_property name="ObjectShortName">EXMON_HI</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/AWUSER_MAX">
+      <obj_property name="ElementShortName">AWUSER_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AWUSER_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/WUSER_MAX">
+      <obj_property name="ElementShortName">WUSER_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WUSER_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/BUSER_MAX">
+      <obj_property name="ElementShortName">BUSER_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BUSER_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/ARUSER_MAX">
+      <obj_property name="ElementShortName">ARUSER_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARUSER_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/RUSER_MAX">
+      <obj_property name="ElementShortName">RUSER_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RUSER_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/STRB_MAX">
+      <obj_property name="ElementShortName">STRB_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STRB_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/STRB_1">
+      <obj_property name="ElementShortName">STRB_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STRB_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/L_CHECK_PIPE_WIDTH">
+      <obj_property name="ElementShortName">L_CHECK_PIPE_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">L_CHECK_PIPE_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/L_NUM_CHKSTRB_NIBS">
+      <obj_property name="ElementShortName">L_NUM_CHKSTRB_NIBS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">L_NUM_CHKSTRB_NIBS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/L_NUM_CHKSTRB_NIB_LANES">
+      <obj_property name="ElementShortName">L_NUM_CHKSTRB_NIB_LANES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">L_NUM_CHKSTRB_NIB_LANES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/L_NUM_CHKSTRB_EQ_LANES">
+      <obj_property name="ElementShortName">L_NUM_CHKSTRB_EQ_LANES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">L_NUM_CHKSTRB_EQ_LANES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/L_NUM_CHKSTRB_AND1_LANES">
+      <obj_property name="ElementShortName">L_NUM_CHKSTRB_AND1_LANES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">L_NUM_CHKSTRB_AND1_LANES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/axl_pc_bar1_slv_inst/CORE/L_NUM_CHKSTRB_AND2_LANES">
+      <obj_property name="ElementShortName">L_NUM_CHKSTRB_AND2_LANES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">L_NUM_CHKSTRB_AND2_LANES[31:0]</obj_property>
    </wvobject>
 </wave_config>
